@@ -30,7 +30,7 @@ android {
   ndkVersion "21.3.6528147"
 
   defaultConfig {
-    applicationId "me.thanel.dank"
+    applicationId "gripe.everything.dawnforeverything"
     minSdkVersion versions.minSdk
     targetSdkVersion versions.compileSdk
     versionCode 24

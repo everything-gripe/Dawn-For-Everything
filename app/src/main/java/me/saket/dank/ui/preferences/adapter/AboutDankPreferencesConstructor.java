@@ -41,7 +41,7 @@ public class AboutDankPreferencesConstructor implements UserPreferencesConstruct
         c.getString(R.string.userprefs_about_rate_on_play_store),
         "<3",
         (clickHandler, event) -> {
-          Intent playStoreIntent = Intents.createForPlayStoreListing(c, "me.thanel.dank");
+          Intent playStoreIntent = Intents.createForPlayStoreListing(c, "gripe.everything.dawnforeverything");
           clickHandler.openIntent(playStoreIntent);
         }));
 

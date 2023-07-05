@@ -2,7 +2,7 @@
     <img alt='Dawn' src='https://saket.me/wp-content/uploads/2018/04/dank_cover.jpg'/>
 </p>
 <p align='center'>
-    <a href='https://f-droid.org/en/packages/me.thanel.dank'>
+    <a href='https://f-droid.org/en/packages/gripe.everything.dawnforeverything'>
         <img alt='Get it on F-Droid' src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png" height="75"/>
     </a>
 </p>
@@ -13,8 +13,8 @@
     <a href="https://github.com/Tunous/Dawn/releases">
         <img alt="GitHub Release" src="https://img.shields.io/github/release/Tunous/Dawn?logo=github"/>
     </a>
-    <a href='https://f-droid.org/en/packages/me.thanel.dank'>
-        <img alt="F-Droid Release" src="https://img.shields.io/f-droid/v/me.thanel.dank.svg?logo=f-droid"/>
+    <a href='https://f-droid.org/en/packages/gripe.everything.dawnforeverything'>
+        <img alt="F-Droid Release" src="https://img.shields.io/f-droid/v/gripe.everything.dawnforeverything.svg?logo=f-droid"/>
     </a>
     <a title="Crowdin" href="https://crowdin.com/project/dawn-for-reddit">
         <img src="https://badges.crowdin.net/dawn-for-reddit/localized.svg">
@@ -33,7 +33,7 @@ This is a fork of a Reddit application named **Dank** created by [@saket](https:
 
 ### Download the APP
 
-You can download the latest release of **Dawn** from [Google Play Store](https://play.google.com/store/apps/details?id=me.thanel.dank) or directly from [GitHub releases page](https://github.com/Tunous/Dawn/releases).
+You can download the latest release of **Dawn** from [Google Play Store](https://play.google.com/store/apps/details?id=gripe.everything.dawnforeverything) or directly from [GitHub releases page](https://github.com/everything-gripe/Dawn-for-Everything/releases).
 
 ### Read about what's new
 
