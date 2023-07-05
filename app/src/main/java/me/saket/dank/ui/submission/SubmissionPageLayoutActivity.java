@@ -136,7 +136,7 @@ public class SubmissionPageLayoutActivity extends DankPullCollapsibleActivity
     // We don't know the suggested sort yet. Attempt with the default
     // sort and if it's found to be different, then do another load.
     DankSubmissionRequest.Builder submissionReqBuilder = DankSubmissionRequest
-        .builder(submissionLink.id())
+        .builder(submissionLink.id(), submissionLink.subredditName())
         .commentSort(Reddit.Companion.getDEFAULT_COMMENT_SORT(), SelectedBy.DEFAULT);
 
     RedditCommentLink initialComment = submissionLink.initialComment();

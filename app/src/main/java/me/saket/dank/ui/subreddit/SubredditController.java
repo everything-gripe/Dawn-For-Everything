@@ -132,7 +132,7 @@ public class SubredditController implements ObservableTransformer<UiEvent, UiCha
               .map(sort -> AuditedCommentSort.create(sort, SelectedBy.SUBMISSION_SUGGESTED))
               .orElse(AuditedCommentSort.create(Reddit.Companion.getDEFAULT_COMMENT_SORT(), SelectedBy.DEFAULT));
 
-          DankSubmissionRequest submissionRequest = DankSubmissionRequest.builder(submission.getId())
+          DankSubmissionRequest submissionRequest = DankSubmissionRequest.builder(submission.getId(), submission.getSubreddit())
               .commentSort(auditedSort)
               .build();
 

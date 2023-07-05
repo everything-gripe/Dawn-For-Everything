@@ -293,7 +293,7 @@ public class CachePreFiller {
         .map(sort -> AuditedCommentSort.create(sort, SelectedBy.SUBMISSION_SUGGESTED))
         .orElse(AuditedCommentSort.create(Reddit.Companion.getDEFAULT_COMMENT_SORT(), SelectedBy.DEFAULT));
 
-    DankSubmissionRequest request = DankSubmissionRequest.builder(submission.getId())
+    DankSubmissionRequest request = DankSubmissionRequest.builder(submission.getId(), submission.getSubreddit())
         .commentSort(auditedSort)
         .build();
 

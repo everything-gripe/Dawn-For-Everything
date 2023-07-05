@@ -26,6 +26,8 @@ public abstract class DankSubmissionRequest implements Parcelable {
   /** Submission Id */
   public abstract String id();
 
+  public abstract String subreddit();
+
   public abstract AuditedCommentSort commentSort();
 
   @Nullable
@@ -37,8 +39,8 @@ public abstract class DankSubmissionRequest implements Parcelable {
   @Nullable
   public abstract Integer commentLimit();
 
-  public static Builder builder(String submissionId) {
-    return new AutoValue_DankSubmissionRequest.Builder().id(submissionId);
+  public static Builder builder(String submissionId, @Nullable String subreddit) {
+    return new AutoValue_DankSubmissionRequest.Builder().id(submissionId).subreddit(subreddit);
   }
 
   public abstract Builder toBuilder();
@@ -57,6 +59,9 @@ public abstract class DankSubmissionRequest implements Parcelable {
   public abstract static class Builder {
     @SuppressWarnings("unused")
     abstract Builder id(String id);
+
+    @SuppressWarnings("unused")
+    abstract Builder subreddit(@Nullable String subreddit);
 
     /**
      * Sets the ID of the comment to focus on. If this comment does not exist, then this parameter is ignored.

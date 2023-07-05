@@ -16,7 +16,7 @@ class JrawSubmissions @Inject constructor(private val clients: Observable<Reddit
   override fun fetch(request: DankSubmissionRequest): Single<RootCommentNode> {
     return clients
         .firstOrError()
-        .map { it.submission(request.id()).comments(request.toJraw()) }
+        .map { it.submission(request.id(), request.subreddit()).comments(request.toJraw()) }
   }
 
   override fun <T : PublicContribution<*>> fetchMoreComments(
