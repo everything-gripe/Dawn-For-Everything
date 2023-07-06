@@ -1,1 +1,1 @@
-Unofficial client for Reddit
+Unofficial client for Everything

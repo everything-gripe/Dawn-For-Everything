@@ -21,16 +21,6 @@
     </a>
 </p>
 
-# THIS PROJECT IS NO LONGER MAINTAINED
-
-This fork similar to original repository is no longer being maintained. For details see [issue #642](https://github.com/Tunous/Dawn/issues/642).
-
----
-
-### Here lies the fork of the greatest open-source Reddit app
-
-This is a fork of a Reddit application named **Dank** created by [@saket](https://github.com/saket). You can find the original repository [here](https://github.com/saket/Dank) and read about why the original code has been archived and open sourced in [this blog post](https://saket.me/sunsetting-dank/).
-
 ### Download the APP
 
 You can download the latest release of **Dawn** from [Google Play Store](https://play.google.com/store/apps/details?id=gripe.everything.dawnforeverything) or directly from [GitHub releases page](https://github.com/everything-gripe/Dawn-for-Everything/releases).
